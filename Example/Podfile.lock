@@ -1,0 +1,14 @@
+PODS:
+  - GhostSpeed (0.1.0)
+
+DEPENDENCIES:
+  - GhostSpeed (from `../`)
+
+EXTERNAL SOURCES:
+  GhostSpeed:
+    :path: ../
+
+SPEC CHECKSUMS:
+  GhostSpeed: 6b7429f9ff1cac32954966236d7f541bba6c2ae2
+
+COCOAPODS: 0.39.0

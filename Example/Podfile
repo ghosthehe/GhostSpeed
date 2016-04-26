@@ -1,0 +1,15 @@
+#use_frameworks!
+source 'https://github.com/ghosthehe/GhostSpeed.git'
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios, '7.0'
+
+target 'GhostSpeed_Example', :exclusive => true do
+  pod 'GhostSpeed', :path => '../'
+end
+
+target 'GhostSpeed_Tests', :exclusive => true do
+  pod 'GhostSpeed', :path => '../'
+
+
+end

@@ -1,0 +1,646 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09DAD4AAD44B8585D81658AA892DF27B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		14FEB23D65CD15184F044EC71181B446 /* Pods-GhostSpeed_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E53A5F0BF09F70C32A253E5AFCD0454 /* Pods-GhostSpeed_Tests-dummy.m */; };
+		57AE3B32D4312B1F585AC42045ECADBF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		62C799F42C08007A66F18C8D4E1A66D5 /* GhostSpeed-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F7FADB16F74858E1D9274E6B0B5CCF2 /* GhostSpeed-dummy.m */; };
+		9216959EFD788214FFEFEED8816BC63A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		9AD1AAB4898A3FBB2A0BBD01056D5683 /* Pods-GhostSpeed_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B97F29C42B189143AE4E336EC176105B /* Pods-GhostSpeed_Example-dummy.m */; };
+		E87DB0BD9D825B360FB7C6D1D4DF5491 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 2839692BA957217866A9E6221C9B53AB /* ReplaceMe.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4F6513DB4B13F21C25AB88089CD24CB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D1C76B05A428C3E920B7A44673C322C;
+			remoteInfo = GhostSpeed;
+		};
+		5A3607BA2415F522DD29A1B6E3B1910D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D1C76B05A428C3E920B7A44673C322C;
+			remoteInfo = GhostSpeed;
+		};
+		9AE15B7EFBD22A7A3453550D3AE0BB97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8AEF3C17A5EAAD11BC6593C3D95151B6;
+			remoteInfo = "GhostSpeed-EMInfoKit";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		124C99599B9F5EA3338067E4E4CD5845 /* Pods-GhostSpeed_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GhostSpeed_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		2839692BA957217866A9E6221C9B53AB /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		30BFDDFF33A5BF732A62510B210A17F6 /* Pods-GhostSpeed_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GhostSpeed_Example.release.xcconfig"; sourceTree = "<group>"; };
+		3AC2BA0330317CF3D55AD32CA8B49DA4 /* Pods-GhostSpeed_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GhostSpeed_Tests-resources.sh"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		45502AC12FC9E8F3F75D2F0720F0ABA4 /* GhostSpeed-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GhostSpeed-prefix.pch"; sourceTree = "<group>"; };
+		4E1360B0A0387F0435D287D5002AC166 /* Pods-GhostSpeed_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GhostSpeed_Example-frameworks.sh"; sourceTree = "<group>"; };
+		4F7FADB16F74858E1D9274E6B0B5CCF2 /* GhostSpeed-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GhostSpeed-dummy.m"; sourceTree = "<group>"; };
+		5483C35A378C859994F65E4E60DE0531 /* Pods-GhostSpeed_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GhostSpeed_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5E86C86BB48A5D7F5C5647A7BCA29A76 /* Pods-GhostSpeed_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GhostSpeed_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		6E53A5F0BF09F70C32A253E5AFCD0454 /* Pods-GhostSpeed_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GhostSpeed_Tests-dummy.m"; sourceTree = "<group>"; };
+		7CC50EE0B1E590D72C9B27FCAD6664C4 /* Pods-GhostSpeed_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GhostSpeed_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		7EDCA3A577DF3F0ACE9C476F954281D5 /* libPods-GhostSpeed_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GhostSpeed_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87CC475FA5AD4E096B6BAB6C59361950 /* GhostSpeed.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GhostSpeed.xcconfig; sourceTree = "<group>"; };
+		A1A41F9D74427903B3D191E8E95EBEE8 /* Pods-GhostSpeed_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GhostSpeed_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B97F29C42B189143AE4E336EC176105B /* Pods-GhostSpeed_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GhostSpeed_Example-dummy.m"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C6FAB38162D3C0C2554DB7A08251C658 /* Pods-GhostSpeed_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GhostSpeed_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		CE9CB5ECA019F761A829232CBAD867FC /* Pods-GhostSpeed_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GhostSpeed_Example-resources.sh"; sourceTree = "<group>"; };
+		D4AB51FE5E44A7929223E49835E4A602 /* EMInfoKit.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EMInfoKit.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		E31C5AA9D5495AAD79403DB59F2216B5 /* libGhostSpeed.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGhostSpeed.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDB28D773FD30C02B4BCE2A1E9595005 /* Pods-GhostSpeed_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GhostSpeed_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F7ED352F7D55B12FF052AC450AF1E26B /* Pods-GhostSpeed_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GhostSpeed_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FC5AFAF0AF8AD8F7340E3CEEDB0A882F /* libPods-GhostSpeed_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GhostSpeed_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D8343EF23407236B27FE8C4CEF3EC3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9216959EFD788214FFEFEED8816BC63A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1150498A283D4D3FD0E6BF841BF5EABC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57AE3B32D4312B1F585AC42045ECADBF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A083565DADAFF7459D9C86C6D2D812EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F32008BB54D9D74EACD3D5E3916C490E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09DAD4AAD44B8585D81658AA892DF27B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C54808F910B7D75ED8689251B08703E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4AB51FE5E44A7929223E49835E4A602 /* EMInfoKit.bundle */,
+				E31C5AA9D5495AAD79403DB59F2216B5 /* libGhostSpeed.a */,
+				7EDCA3A577DF3F0ACE9C476F954281D5 /* libPods-GhostSpeed_Example.a */,
+				FC5AFAF0AF8AD8F7340E3CEEDB0A882F /* libPods-GhostSpeed_Tests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42FAF97226BF9771387DF43AAA07CD70 /* GhostSpeed */ = {
+			isa = PBXGroup;
+			children = (
+				8628FD1948B56DFAFB8EB65AA2F63AF5 /* GhostSpeed */,
+				830380F44324AC721CF38AD0B1F8FEC0 /* Support Files */,
+			);
+			name = GhostSpeed;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				9E7690C0370F3C8057D6D5B6CDC1B0C5 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				1C54808F910B7D75ED8689251B08703E /* Products */,
+				C4F0B1B0CBE628CF0B2D25800FB6CA1E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		830380F44324AC721CF38AD0B1F8FEC0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				87CC475FA5AD4E096B6BAB6C59361950 /* GhostSpeed.xcconfig */,
+				4F7FADB16F74858E1D9274E6B0B5CCF2 /* GhostSpeed-dummy.m */,
+				45502AC12FC9E8F3F75D2F0720F0ABA4 /* GhostSpeed-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GhostSpeed";
+			sourceTree = "<group>";
+		};
+		8628FD1948B56DFAFB8EB65AA2F63AF5 /* GhostSpeed */ = {
+			isa = PBXGroup;
+			children = (
+				E924121B1E0E2757A52538F2E7EF8292 /* Classes */,
+			);
+			path = GhostSpeed;
+			sourceTree = "<group>";
+		};
+		9E7690C0370F3C8057D6D5B6CDC1B0C5 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				42FAF97226BF9771387DF43AAA07CD70 /* GhostSpeed */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C4F0B1B0CBE628CF0B2D25800FB6CA1E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D6BB2093510ED63BDB819E0ED2BEEC5B /* Pods-GhostSpeed_Example */,
+				D8AAB8B5DF03006A6BBE82BD517DEB4F /* Pods-GhostSpeed_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D6BB2093510ED63BDB819E0ED2BEEC5B /* Pods-GhostSpeed_Example */ = {
+			isa = PBXGroup;
+			children = (
+				5483C35A378C859994F65E4E60DE0531 /* Pods-GhostSpeed_Example-acknowledgements.markdown */,
+				5E86C86BB48A5D7F5C5647A7BCA29A76 /* Pods-GhostSpeed_Example-acknowledgements.plist */,
+				B97F29C42B189143AE4E336EC176105B /* Pods-GhostSpeed_Example-dummy.m */,
+				4E1360B0A0387F0435D287D5002AC166 /* Pods-GhostSpeed_Example-frameworks.sh */,
+				CE9CB5ECA019F761A829232CBAD867FC /* Pods-GhostSpeed_Example-resources.sh */,
+				C6FAB38162D3C0C2554DB7A08251C658 /* Pods-GhostSpeed_Example.debug.xcconfig */,
+				30BFDDFF33A5BF732A62510B210A17F6 /* Pods-GhostSpeed_Example.release.xcconfig */,
+			);
+			name = "Pods-GhostSpeed_Example";
+			path = "Target Support Files/Pods-GhostSpeed_Example";
+			sourceTree = "<group>";
+		};
+		D8AAB8B5DF03006A6BBE82BD517DEB4F /* Pods-GhostSpeed_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F7ED352F7D55B12FF052AC450AF1E26B /* Pods-GhostSpeed_Tests-acknowledgements.markdown */,
+				EDB28D773FD30C02B4BCE2A1E9595005 /* Pods-GhostSpeed_Tests-acknowledgements.plist */,
+				6E53A5F0BF09F70C32A253E5AFCD0454 /* Pods-GhostSpeed_Tests-dummy.m */,
+				7CC50EE0B1E590D72C9B27FCAD6664C4 /* Pods-GhostSpeed_Tests-frameworks.sh */,
+				3AC2BA0330317CF3D55AD32CA8B49DA4 /* Pods-GhostSpeed_Tests-resources.sh */,
+				A1A41F9D74427903B3D191E8E95EBEE8 /* Pods-GhostSpeed_Tests.debug.xcconfig */,
+				124C99599B9F5EA3338067E4E4CD5845 /* Pods-GhostSpeed_Tests.release.xcconfig */,
+			);
+			name = "Pods-GhostSpeed_Tests";
+			path = "Target Support Files/Pods-GhostSpeed_Tests";
+			sourceTree = "<group>";
+		};
+		E924121B1E0E2757A52538F2E7EF8292 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2839692BA957217866A9E6221C9B53AB /* ReplaceMe.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3018FA6246A84805B66167A4B1B1829C /* Pods-GhostSpeed_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FB7CA3CADFD94210875EF510229FC7C /* Build configuration list for PBXNativeTarget "Pods-GhostSpeed_Tests" */;
+			buildPhases = (
+				83255E71450DCBD2F998C4B07E1715CF /* Sources */,
+				1150498A283D4D3FD0E6BF841BF5EABC /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD2B19FF297A73EF2E2158E6FF38245D /* PBXTargetDependency */,
+			);
+			name = "Pods-GhostSpeed_Tests";
+			productName = "Pods-GhostSpeed_Tests";
+			productReference = FC5AFAF0AF8AD8F7340E3CEEDB0A882F /* libPods-GhostSpeed_Tests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5DA575F9789372AB39EF086EB0CB31EA /* Pods-GhostSpeed_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63B0EE962BD3C0955E9A2DB14CB6E47C /* Build configuration list for PBXNativeTarget "Pods-GhostSpeed_Example" */;
+			buildPhases = (
+				270B7E29B54E360DD698DA6CA8307C11 /* Sources */,
+				0D8343EF23407236B27FE8C4CEF3EC3E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20F99AC87DC378923DCD3C845E80FD56 /* PBXTargetDependency */,
+			);
+			name = "Pods-GhostSpeed_Example";
+			productName = "Pods-GhostSpeed_Example";
+			productReference = 7EDCA3A577DF3F0ACE9C476F954281D5 /* libPods-GhostSpeed_Example.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8AEF3C17A5EAAD11BC6593C3D95151B6 /* GhostSpeed-EMInfoKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 536771C920717D937CCA311D53A912CC /* Build configuration list for PBXNativeTarget "GhostSpeed-EMInfoKit" */;
+			buildPhases = (
+				FCB096D7A8A4A4E7E57034022377B27A /* Sources */,
+				A083565DADAFF7459D9C86C6D2D812EF /* Frameworks */,
+				A8FE5045A01ED58E0A2E24778DCB5E0A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GhostSpeed-EMInfoKit";
+			productName = "GhostSpeed-EMInfoKit";
+			productReference = D4AB51FE5E44A7929223E49835E4A602 /* EMInfoKit.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		9D1C76B05A428C3E920B7A44673C322C /* GhostSpeed */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 224D2BB1F66048EDC36652AB6A22472E /* Build configuration list for PBXNativeTarget "GhostSpeed" */;
+			buildPhases = (
+				43EB3D9CDC0ED353630A0C3B69107A76 /* Sources */,
+				F32008BB54D9D74EACD3D5E3916C490E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7C74E1962FFEA1AD6F6F814F25CC0CB1 /* PBXTargetDependency */,
+			);
+			name = GhostSpeed;
+			productName = GhostSpeed;
+			productReference = E31C5AA9D5495AAD79403DB59F2216B5 /* libGhostSpeed.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 1C54808F910B7D75ED8689251B08703E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D1C76B05A428C3E920B7A44673C322C /* GhostSpeed */,
+				8AEF3C17A5EAAD11BC6593C3D95151B6 /* GhostSpeed-EMInfoKit */,
+				5DA575F9789372AB39EF086EB0CB31EA /* Pods-GhostSpeed_Example */,
+				3018FA6246A84805B66167A4B1B1829C /* Pods-GhostSpeed_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A8FE5045A01ED58E0A2E24778DCB5E0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		270B7E29B54E360DD698DA6CA8307C11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AD1AAB4898A3FBB2A0BBD01056D5683 /* Pods-GhostSpeed_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43EB3D9CDC0ED353630A0C3B69107A76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62C799F42C08007A66F18C8D4E1A66D5 /* GhostSpeed-dummy.m in Sources */,
+				E87DB0BD9D825B360FB7C6D1D4DF5491 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83255E71450DCBD2F998C4B07E1715CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14FEB23D65CD15184F044EC71181B446 /* Pods-GhostSpeed_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCB096D7A8A4A4E7E57034022377B27A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		20F99AC87DC378923DCD3C845E80FD56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GhostSpeed;
+			target = 9D1C76B05A428C3E920B7A44673C322C /* GhostSpeed */;
+			targetProxy = 4F6513DB4B13F21C25AB88089CD24CB5 /* PBXContainerItemProxy */;
+		};
+		7C74E1962FFEA1AD6F6F814F25CC0CB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "GhostSpeed-EMInfoKit";
+			target = 8AEF3C17A5EAAD11BC6593C3D95151B6 /* GhostSpeed-EMInfoKit */;
+			targetProxy = 9AE15B7EFBD22A7A3453550D3AE0BB97 /* PBXContainerItemProxy */;
+		};
+		BD2B19FF297A73EF2E2158E6FF38245D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GhostSpeed;
+			target = 9D1C76B05A428C3E920B7A44673C322C /* GhostSpeed */;
+			targetProxy = 5A3607BA2415F522DD29A1B6E3B1910D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		052A17875CB827423D627183396CEB60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		449992539DB625840DE88F3043B18AC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87CC475FA5AD4E096B6BAB6C59361950 /* GhostSpeed.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GhostSpeed/GhostSpeed-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		4F3638321994CCD9964CB1C74D1DDED9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 124C99599B9F5EA3338067E4E4CD5845 /* Pods-GhostSpeed_Tests.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		57C1B30356D9B5F138957EAF1D1B25B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87CC475FA5AD4E096B6BAB6C59361950 /* GhostSpeed.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = EMInfoKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		6A0F3455D88056631AACBBC58D147573 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1A41F9D74427903B3D191E8E95EBEE8 /* Pods-GhostSpeed_Tests.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		80209FAEA83B07A59CB84A153B37F859 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30BFDDFF33A5BF732A62510B210A17F6 /* Pods-GhostSpeed_Example.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		896DD09CF98893A235F1B121D99D848C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87CC475FA5AD4E096B6BAB6C59361950 /* GhostSpeed.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = EMInfoKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		92702744AA6AF6E8B4D7E4EDFCA19FCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6FAB38162D3C0C2554DB7A08251C658 /* Pods-GhostSpeed_Example.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B37F0F91F85060E28F1DAAB522DC7EC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E0182C7A344E1350712818020E73E382 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87CC475FA5AD4E096B6BAB6C59361950 /* GhostSpeed.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GhostSpeed/GhostSpeed-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		224D2BB1F66048EDC36652AB6A22472E /* Build configuration list for PBXNativeTarget "GhostSpeed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0182C7A344E1350712818020E73E382 /* Debug */,
+				449992539DB625840DE88F3043B18AC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B37F0F91F85060E28F1DAAB522DC7EC1 /* Debug */,
+				052A17875CB827423D627183396CEB60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FB7CA3CADFD94210875EF510229FC7C /* Build configuration list for PBXNativeTarget "Pods-GhostSpeed_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A0F3455D88056631AACBBC58D147573 /* Debug */,
+				4F3638321994CCD9964CB1C74D1DDED9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		536771C920717D937CCA311D53A912CC /* Build configuration list for PBXNativeTarget "GhostSpeed-EMInfoKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				896DD09CF98893A235F1B121D99D848C /* Debug */,
+				57C1B30356D9B5F138957EAF1D1B25B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63B0EE962BD3C0955E9A2DB14CB6E47C /* Build configuration list for PBXNativeTarget "Pods-GhostSpeed_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92702744AA6AF6E8B4D7E4EDFCA19FCA /* Debug */,
+				80209FAEA83B07A59CB84A153B37F859 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

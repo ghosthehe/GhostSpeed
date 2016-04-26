@@ -1,0 +1,25 @@
+{
+  "name": "GhostSpeed",
+  "version": "0.1.0",
+  "summary": "GhostSpeed",
+  "description": "GhostSpeed is my secrate",
+  "homepage": "https://github.com/ghosthehe/GhostSpeed",
+  "license": "MIT",
+  "authors": {
+    "ghost": "903470026@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/ghosthehe/GhostSpeed.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "GhostSpeed/Classes/**/*.{h,c,m,swift}",
+  "resource_bundles": {
+    "EMInfoKit": [
+      "GhostSpeed/Assets/**/*.png"
+    ]
+  }
+}
