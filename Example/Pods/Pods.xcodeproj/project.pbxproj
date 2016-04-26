@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		09DAD4AAD44B8585D81658AA892DF27B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		14FEB23D65CD15184F044EC71181B446 /* Pods-GhostSpeed_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E53A5F0BF09F70C32A253E5AFCD0454 /* Pods-GhostSpeed_Tests-dummy.m */; };
+		4976A1B819440AABD21B44A2255A3798 /* GhostSpeed-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F7FADB16F74858E1D9274E6B0B5CCF2 /* GhostSpeed-dummy.m */; };
 		57AE3B32D4312B1F585AC42045ECADBF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		62C799F42C08007A66F18C8D4E1A66D5 /* GhostSpeed-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F7FADB16F74858E1D9274E6B0B5CCF2 /* GhostSpeed-dummy.m */; };
+		88CF6C3303E72A08F032D1F8772E4F92 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		9216959EFD788214FFEFEED8816BC63A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		9AD1AAB4898A3FBB2A0BBD01056D5683 /* Pods-GhostSpeed_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B97F29C42B189143AE4E336EC176105B /* Pods-GhostSpeed_Example-dummy.m */; };
-		E87DB0BD9D825B360FB7C6D1D4DF5491 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 2839692BA957217866A9E6221C9B53AB /* ReplaceMe.m */; };
+		B230D69FA138CE867410A7A19F7F9F2B /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 03A65A6E9AF4A53931E3BB698E37D242 /* Test.m */; };
+		C916875B012C612840BA44E7D175C356 /* Test.h in Headers */ = {isa = PBXBuildFile; fileRef = D47B5F3E16625857CC4E26D5605BC5D7 /* Test.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -21,28 +22,28 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9D1C76B05A428C3E920B7A44673C322C;
+			remoteGlobalIDString = 5FBAE21837B1FCF3D3E10A4A875BA8F6;
 			remoteInfo = GhostSpeed;
 		};
 		5A3607BA2415F522DD29A1B6E3B1910D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9D1C76B05A428C3E920B7A44673C322C;
+			remoteGlobalIDString = 5FBAE21837B1FCF3D3E10A4A875BA8F6;
 			remoteInfo = GhostSpeed;
 		};
-		9AE15B7EFBD22A7A3453550D3AE0BB97 /* PBXContainerItemProxy */ = {
+		D43A143D5286E7CE8F8DD9F78ABD6BB4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8AEF3C17A5EAAD11BC6593C3D95151B6;
+			remoteGlobalIDString = 2C8D2787502C51BDD42E6BCDC796EEA9;
 			remoteInfo = "GhostSpeed-EMInfoKit";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03A65A6E9AF4A53931E3BB698E37D242 /* Test.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
 		124C99599B9F5EA3338067E4E4CD5845 /* Pods-GhostSpeed_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GhostSpeed_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		2839692BA957217866A9E6221C9B53AB /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		30BFDDFF33A5BF732A62510B210A17F6 /* Pods-GhostSpeed_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GhostSpeed_Example.release.xcconfig"; sourceTree = "<group>"; };
 		3AC2BA0330317CF3D55AD32CA8B49DA4 /* Pods-GhostSpeed_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GhostSpeed_Tests-resources.sh"; sourceTree = "<group>"; };
 		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -60,6 +61,7 @@
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C6FAB38162D3C0C2554DB7A08251C658 /* Pods-GhostSpeed_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GhostSpeed_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		CE9CB5ECA019F761A829232CBAD867FC /* Pods-GhostSpeed_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GhostSpeed_Example-resources.sh"; sourceTree = "<group>"; };
+		D47B5F3E16625857CC4E26D5605BC5D7 /* Test.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
 		D4AB51FE5E44A7929223E49835E4A602 /* EMInfoKit.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EMInfoKit.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		E31C5AA9D5495AAD79403DB59F2216B5 /* libGhostSpeed.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGhostSpeed.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDB28D773FD30C02B4BCE2A1E9595005 /* Pods-GhostSpeed_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GhostSpeed_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -84,18 +86,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A083565DADAFF7459D9C86C6D2D812EF /* Frameworks */ = {
+		7A80E0D89221704449DCCF6EACD6BAE3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88CF6C3303E72A08F032D1F8772E4F92 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F32008BB54D9D74EACD3D5E3916C490E /* Frameworks */ = {
+		E9A64B34A37D37612BC87E4E7F230F7B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09DAD4AAD44B8585D81658AA892DF27B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,11 +118,20 @@
 		42FAF97226BF9771387DF43AAA07CD70 /* GhostSpeed */ = {
 			isa = PBXGroup;
 			children = (
-				8628FD1948B56DFAFB8EB65AA2F63AF5 /* GhostSpeed */,
+				CC9C26E00FD7C5A30C00D267AE618FBE /* GhostSpeed */,
 				830380F44324AC721CF38AD0B1F8FEC0 /* Support Files */,
 			);
 			name = GhostSpeed;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		6492F69B755CCFF2B13EAA0B7AAC4E1D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D47B5F3E16625857CC4E26D5605BC5D7 /* Test.h */,
+				03A65A6E9AF4A53931E3BB698E37D242 /* Test.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -143,14 +154,6 @@
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/GhostSpeed";
-			sourceTree = "<group>";
-		};
-		8628FD1948B56DFAFB8EB65AA2F63AF5 /* GhostSpeed */ = {
-			isa = PBXGroup;
-			children = (
-				E924121B1E0E2757A52538F2E7EF8292 /* Classes */,
-			);
-			path = GhostSpeed;
 			sourceTree = "<group>";
 		};
 		9E7690C0370F3C8057D6D5B6CDC1B0C5 /* Development Pods */ = {
@@ -186,6 +189,14 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		CC9C26E00FD7C5A30C00D267AE618FBE /* GhostSpeed */ = {
+			isa = PBXGroup;
+			children = (
+				6492F69B755CCFF2B13EAA0B7AAC4E1D /* Classes */,
+			);
+			path = GhostSpeed;
+			sourceTree = "<group>";
+		};
 		D6BB2093510ED63BDB819E0ED2BEEC5B /* Pods-GhostSpeed_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -216,17 +227,37 @@
 			path = "Target Support Files/Pods-GhostSpeed_Tests";
 			sourceTree = "<group>";
 		};
-		E924121B1E0E2757A52538F2E7EF8292 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				2839692BA957217866A9E6221C9B53AB /* ReplaceMe.m */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		A7BC9871445CD776E1A42B68DBC3813E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C916875B012C612840BA44E7D175C356 /* Test.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		2C8D2787502C51BDD42E6BCDC796EEA9 /* GhostSpeed-EMInfoKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55D30B3E55686E6DFFD137EF0D085A5F /* Build configuration list for PBXNativeTarget "GhostSpeed-EMInfoKit" */;
+			buildPhases = (
+				CD5DC33045B4443DDCDA718695554B6D /* Sources */,
+				E9A64B34A37D37612BC87E4E7F230F7B /* Frameworks */,
+				36778B41D84E33A2DB51054B2D8A4822 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GhostSpeed-EMInfoKit";
+			productName = "GhostSpeed-EMInfoKit";
+			productReference = D4AB51FE5E44A7929223E49835E4A602 /* EMInfoKit.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
 		3018FA6246A84805B66167A4B1B1829C /* Pods-GhostSpeed_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2FB7CA3CADFD94210875EF510229FC7C /* Build configuration list for PBXNativeTarget "Pods-GhostSpeed_Tests" */;
@@ -261,34 +292,18 @@
 			productReference = 7EDCA3A577DF3F0ACE9C476F954281D5 /* libPods-GhostSpeed_Example.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		8AEF3C17A5EAAD11BC6593C3D95151B6 /* GhostSpeed-EMInfoKit */ = {
+		5FBAE21837B1FCF3D3E10A4A875BA8F6 /* GhostSpeed */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 536771C920717D937CCA311D53A912CC /* Build configuration list for PBXNativeTarget "GhostSpeed-EMInfoKit" */;
+			buildConfigurationList = F6ED255D32A4BCCAD6A9BD22902EB51F /* Build configuration list for PBXNativeTarget "GhostSpeed" */;
 			buildPhases = (
-				FCB096D7A8A4A4E7E57034022377B27A /* Sources */,
-				A083565DADAFF7459D9C86C6D2D812EF /* Frameworks */,
-				A8FE5045A01ED58E0A2E24778DCB5E0A /* Resources */,
+				06D99EA947C8525DBEAA74F6271E2772 /* Sources */,
+				7A80E0D89221704449DCCF6EACD6BAE3 /* Frameworks */,
+				A7BC9871445CD776E1A42B68DBC3813E /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-			);
-			name = "GhostSpeed-EMInfoKit";
-			productName = "GhostSpeed-EMInfoKit";
-			productReference = D4AB51FE5E44A7929223E49835E4A602 /* EMInfoKit.bundle */;
-			productType = "com.apple.product-type.bundle";
-		};
-		9D1C76B05A428C3E920B7A44673C322C /* GhostSpeed */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 224D2BB1F66048EDC36652AB6A22472E /* Build configuration list for PBXNativeTarget "GhostSpeed" */;
-			buildPhases = (
-				43EB3D9CDC0ED353630A0C3B69107A76 /* Sources */,
-				F32008BB54D9D74EACD3D5E3916C490E /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				7C74E1962FFEA1AD6F6F814F25CC0CB1 /* PBXTargetDependency */,
+				04A9BF7D918F200FD411749E309C5717 /* PBXTargetDependency */,
 			);
 			name = GhostSpeed;
 			productName = GhostSpeed;
@@ -316,8 +331,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9D1C76B05A428C3E920B7A44673C322C /* GhostSpeed */,
-				8AEF3C17A5EAAD11BC6593C3D95151B6 /* GhostSpeed-EMInfoKit */,
+				5FBAE21837B1FCF3D3E10A4A875BA8F6 /* GhostSpeed */,
+				2C8D2787502C51BDD42E6BCDC796EEA9 /* GhostSpeed-EMInfoKit */,
 				5DA575F9789372AB39EF086EB0CB31EA /* Pods-GhostSpeed_Example */,
 				3018FA6246A84805B66167A4B1B1829C /* Pods-GhostSpeed_Tests */,
 			);
@@ -325,7 +340,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A8FE5045A01ED58E0A2E24778DCB5E0A /* Resources */ = {
+		36778B41D84E33A2DB51054B2D8A4822 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -335,20 +350,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		06D99EA947C8525DBEAA74F6271E2772 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4976A1B819440AABD21B44A2255A3798 /* GhostSpeed-dummy.m in Sources */,
+				B230D69FA138CE867410A7A19F7F9F2B /* Test.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		270B7E29B54E360DD698DA6CA8307C11 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				9AD1AAB4898A3FBB2A0BBD01056D5683 /* Pods-GhostSpeed_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		43EB3D9CDC0ED353630A0C3B69107A76 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				62C799F42C08007A66F18C8D4E1A66D5 /* GhostSpeed-dummy.m in Sources */,
-				E87DB0BD9D825B360FB7C6D1D4DF5491 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,7 +375,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FCB096D7A8A4A4E7E57034022377B27A /* Sources */ = {
+		CD5DC33045B4443DDCDA718695554B6D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -370,22 +385,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		04A9BF7D918F200FD411749E309C5717 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "GhostSpeed-EMInfoKit";
+			target = 2C8D2787502C51BDD42E6BCDC796EEA9 /* GhostSpeed-EMInfoKit */;
+			targetProxy = D43A143D5286E7CE8F8DD9F78ABD6BB4 /* PBXContainerItemProxy */;
+		};
 		20F99AC87DC378923DCD3C845E80FD56 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GhostSpeed;
-			target = 9D1C76B05A428C3E920B7A44673C322C /* GhostSpeed */;
+			target = 5FBAE21837B1FCF3D3E10A4A875BA8F6 /* GhostSpeed */;
 			targetProxy = 4F6513DB4B13F21C25AB88089CD24CB5 /* PBXContainerItemProxy */;
-		};
-		7C74E1962FFEA1AD6F6F814F25CC0CB1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "GhostSpeed-EMInfoKit";
-			target = 8AEF3C17A5EAAD11BC6593C3D95151B6 /* GhostSpeed-EMInfoKit */;
-			targetProxy = 9AE15B7EFBD22A7A3453550D3AE0BB97 /* PBXContainerItemProxy */;
 		};
 		BD2B19FF297A73EF2E2158E6FF38245D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GhostSpeed;
-			target = 9D1C76B05A428C3E920B7A44673C322C /* GhostSpeed */;
+			target = 5FBAE21837B1FCF3D3E10A4A875BA8F6 /* GhostSpeed */;
 			targetProxy = 5A3607BA2415F522DD29A1B6E3B1910D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -425,14 +440,14 @@
 			};
 			name = Release;
 		};
-		449992539DB625840DE88F3043B18AC7 /* Release */ = {
+		12C664932E396F5639E465F78E589754 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 87CC475FA5AD4E096B6BAB6C59361950 /* GhostSpeed.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/GhostSpeed/GhostSpeed-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
@@ -441,7 +456,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
-			name = Release;
+			name = Debug;
 		};
 		4F3638321994CCD9964CB1C74D1DDED9 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -457,18 +472,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		57C1B30356D9B5F138957EAF1D1B25B8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 87CC475FA5AD4E096B6BAB6C59361950 /* GhostSpeed.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = EMInfoKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
@@ -489,6 +492,18 @@
 			};
 			name = Debug;
 		};
+		7BF55E4E8517A5853FE3E248B91C0445 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87CC475FA5AD4E096B6BAB6C59361950 /* GhostSpeed.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = EMInfoKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 		80209FAEA83B07A59CB84A153B37F859 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 30BFDDFF33A5BF732A62510B210A17F6 /* Pods-GhostSpeed_Example.release.xcconfig */;
@@ -506,17 +521,23 @@
 			};
 			name = Release;
 		};
-		896DD09CF98893A235F1B121D99D848C /* Debug */ = {
+		84B8DF1E519B6AC51B61887B7DFDCC21 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 87CC475FA5AD4E096B6BAB6C59361950 /* GhostSpeed.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = EMInfoKit;
+				GCC_PREFIX_HEADER = "Target Support Files/GhostSpeed/GhostSpeed-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
 			};
-			name = Debug;
+			name = Release;
 		};
 		92702744AA6AF6E8B4D7E4EDFCA19FCA /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -532,6 +553,18 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		98446D780A3E967670E5618BE158C054 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87CC475FA5AD4E096B6BAB6C59361950 /* GhostSpeed.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = EMInfoKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
@@ -574,36 +607,9 @@
 			};
 			name = Debug;
 		};
-		E0182C7A344E1350712818020E73E382 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 87CC475FA5AD4E096B6BAB6C59361950 /* GhostSpeed.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/GhostSpeed/GhostSpeed-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		224D2BB1F66048EDC36652AB6A22472E /* Build configuration list for PBXNativeTarget "GhostSpeed" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E0182C7A344E1350712818020E73E382 /* Debug */,
-				449992539DB625840DE88F3043B18AC7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -622,11 +628,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		536771C920717D937CCA311D53A912CC /* Build configuration list for PBXNativeTarget "GhostSpeed-EMInfoKit" */ = {
+		55D30B3E55686E6DFFD137EF0D085A5F /* Build configuration list for PBXNativeTarget "GhostSpeed-EMInfoKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				896DD09CF98893A235F1B121D99D848C /* Debug */,
-				57C1B30356D9B5F138957EAF1D1B25B8 /* Release */,
+				98446D780A3E967670E5618BE158C054 /* Debug */,
+				7BF55E4E8517A5853FE3E248B91C0445 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -636,6 +642,15 @@
 			buildConfigurations = (
 				92702744AA6AF6E8B4D7E4EDFCA19FCA /* Debug */,
 				80209FAEA83B07A59CB84A153B37F859 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6ED255D32A4BCCAD6A9BD22902EB51F /* Build configuration list for PBXNativeTarget "GhostSpeed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12C664932E396F5639E465F78E589754 /* Debug */,
+				84B8DF1E519B6AC51B61887B7DFDCC21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

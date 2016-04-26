@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '8063C89C2E58C5782D63DCC1'
+               BlueprintIdentifier = '09DF9C132586E6A0549FE3B9'
                BlueprintName = 'GhostSpeed'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libGhostSpeed.a'>
