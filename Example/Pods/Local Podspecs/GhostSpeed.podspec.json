@@ -1,8 +1,8 @@
 {
   "name": "GhostSpeed",
   "version": "0.1.0",
-  "summary": "GhostSpeed",
-  "description": "GhostSpeed is my secrate",
+  "summary": "GhostSpeed.",
+  "description": "GhostSpeed is my secerate when I am developping",
   "homepage": "https://github.com/ghosthehe/GhostSpeed",
   "license": "MIT",
   "authors": {
@@ -16,10 +16,18 @@
     "ios": "7.0"
   },
   "requires_arc": true,
-  "source_files": "GhostSpeed/Classes/**/*.{h,c,m,swift}",
+  "resources": "GhostSpeed/Assets/**/*.js",
   "resource_bundles": {
     "EMInfoKit": [
       "GhostSpeed/Assets/**/*.png"
+    ]
+  },
+  "dependencies": {
+    "Reachability": [
+      "~> 3.2"
+    ],
+    "JLRoutes": [
+      "~> 1.5.3"
     ]
   }
 }

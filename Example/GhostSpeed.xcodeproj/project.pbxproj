@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1A82D9332EC435765B11C178 /* libPods-GhostSpeed_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 31083F07DEFA74E0982229CF /* libPods-GhostSpeed_Example.a */; };
+		1A0065250815B2E523FB7850 /* libPods-GhostSpeed_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 446885D8FDD815171BA26AFD /* libPods-GhostSpeed_Tests.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -22,7 +22,7 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		8B2AA1333C5D71D4643B7D2F /* libPods-GhostSpeed_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F829D887AFFA32BFDF505EE5 /* libPods-GhostSpeed_Tests.a */; };
+		F9F6D7B42A5D70E0EF5DCA19 /* libPods-GhostSpeed_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A66959B21495457E20581D8B /* libPods-GhostSpeed_Example.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,8 +41,8 @@
 		1EB0D2CE89A6ABCE08985A02 /* Pods-GhostSpeed_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GhostSpeed_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-GhostSpeed_Example/Pods-GhostSpeed_Example.release.xcconfig"; sourceTree = "<group>"; };
 		245F86C059EEB4EEB294A626 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		2488B39CED8E6EEFBC3604E6 /* Pods-GhostSpeed_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GhostSpeed_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GhostSpeed_Example/Pods-GhostSpeed_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		31083F07DEFA74E0982229CF /* libPods-GhostSpeed_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GhostSpeed_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		31A39DE3BA8A044F2978E6EA /* GhostSpeed.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GhostSpeed.podspec; path = ../GhostSpeed.podspec; sourceTree = "<group>"; };
+		446885D8FDD815171BA26AFD /* libPods-GhostSpeed_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GhostSpeed_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* GhostSpeed_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GhostSpeed_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -64,7 +64,7 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		80564E37450CB826FE6634F5 /* Pods-GhostSpeed_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GhostSpeed_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GhostSpeed_Tests/Pods-GhostSpeed_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		F829D887AFFA32BFDF505EE5 /* libPods-GhostSpeed_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GhostSpeed_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A66959B21495457E20581D8B /* libPods-GhostSpeed_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GhostSpeed_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +75,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				1A82D9332EC435765B11C178 /* libPods-GhostSpeed_Example.a in Frameworks */,
+				F9F6D7B42A5D70E0EF5DCA19 /* libPods-GhostSpeed_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +86,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				8B2AA1333C5D71D4643B7D2F /* libPods-GhostSpeed_Tests.a in Frameworks */,
+				1A0065250815B2E523FB7850 /* libPods-GhostSpeed_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,8 +121,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				31083F07DEFA74E0982229CF /* libPods-GhostSpeed_Example.a */,
-				F829D887AFFA32BFDF505EE5 /* libPods-GhostSpeed_Tests.a */,
+				A66959B21495457E20581D8B /* libPods-GhostSpeed_Example.a */,
+				446885D8FDD815171BA26AFD /* libPods-GhostSpeed_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

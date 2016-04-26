@@ -58,9 +58,11 @@ install_resource()
   esac
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_resource "../../GhostSpeed/Assets/EMJSBridge.js"
   install_resource "${BUILT_PRODUCTS_DIR}/EMInfoKit.bundle"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_resource "../../GhostSpeed/Assets/EMJSBridge.js"
   install_resource "${BUILT_PRODUCTS_DIR}/EMInfoKit.bundle"
 fi
 

@@ -1,5 +1,9 @@
 PODS:
-  - GhostSpeed (0.1.0)
+  - GhostSpeed (0.1.0):
+    - JLRoutes (~> 1.5.3)
+    - Reachability (~> 3.2)
+  - JLRoutes (1.5.5)
+  - Reachability (3.2)
 
 DEPENDENCIES:
   - GhostSpeed (from `../`)
@@ -9,6 +13,8 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  GhostSpeed: 6b7429f9ff1cac32954966236d7f541bba6c2ae2
+  GhostSpeed: 255973ff781ee2c11552270f213503a29d752073
+  JLRoutes: d191a496b820f60d70225202d04289582da962df
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
 
 COCOAPODS: 0.39.0
